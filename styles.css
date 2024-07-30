@@ -1,0 +1,4 @@
+/* 페이지 로딩 시 모든 내용을 숨김 */
+body {
+    visibility: hidden;
+  }

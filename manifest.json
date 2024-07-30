@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Page Load Delay",
+  "version": "1.0",
+  "description": "웹페이지 로딩을 5초 지연시킵니다.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
+
+  
